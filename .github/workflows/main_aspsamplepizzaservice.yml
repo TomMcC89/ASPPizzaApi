@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'AspSamplePizzaService'
-          slot-name: 'Production'
+          slot-name: 'Blue'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_165BD752FD3B4E80B4DF049953E2BDF2 }}
           package: .
