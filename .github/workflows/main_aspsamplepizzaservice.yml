@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'AspSamplePizzaService'
           slot-name: 'Blue'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_165BD752FD3B4E80B4DF049953E2BDF2 }}
+          publish-profile: ${{ secrets.BLUE_PUBLISH_PROFILE }}
           package: .
